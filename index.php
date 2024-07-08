@@ -6,8 +6,10 @@
     $users->execute();
 
     $res=$users->fetchAll();
+    $page_titel="list users";
+    $template="index";
 
-    include "./layout.php";
+    include "./layout.phtml";
 
 
 ?>
